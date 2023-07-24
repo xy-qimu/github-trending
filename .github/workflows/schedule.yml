@@ -5,7 +5,7 @@ name: Daily Github-Trending
 
 on:
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "38 11 * * *"
 
 jobs:
   build:
