@@ -5,7 +5,7 @@ name: Daily Github-Trending
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 19 * * *"
 
 jobs:
   build:
@@ -32,8 +32,8 @@ jobs:
     - name: push to origin master
       run: |
         echo start push
-        git config --global user.name "bonfy"
-        git config --global user.email "foreverbonfy@163.com"
+        git config --global user.name "qimu"
+        git config --global user.email "hualin_xie@163.com"
         
         git add -A
         git commit -m $(date '+%Y-%m-%d')
